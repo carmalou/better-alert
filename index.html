@@ -41,7 +41,7 @@ betterAlert("Isn't this awesome??");
     var contents = document.createElement("div");
     alertDOM.appendChild(contents);
     contents.classList.add('container');
-    contents.innerHTML = "<h2 class=\"text\">" + text + "</h2>" +  "<button class=\"btn-primary ok-btn\" id=\"js-disableAlert\" type=\"submit\">OK</button>";
+    contents.innerHTML = "<h2 class=\"text\">" + text + "</h2>" +  "<button class=\"btn-primary ok-btn\" id=\"js-disableAlert\" type=\"submit\">Yes!</button>";
     var disable = document.getElementById('js-disableAlert');
     function removeAlert() {
       disable.removeEventListener('click', removeAlert, false);
