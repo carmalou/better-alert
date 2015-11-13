@@ -1,7 +1,6 @@
 exports.module = function betterAlert(text) {
   var alertDOM = document.createElement("div");
   document.body.appendChild(alertDOM);
-  console.log(text);
   alertDOM.classList.add('alert');
   var contents = document.createElement("div");
   alertDOM.appendChild(contents);
